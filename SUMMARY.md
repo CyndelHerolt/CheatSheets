@@ -8,8 +8,3 @@
   * [Installation](docker/installation.md)
   * [Docker CLI](docker/docker-cli.md)
   * [Création et lancement d'un Container](docker/creation-et-lancement-dun-container.md)
-* [P.O.O](p.o.o.md)
-* [SQL](sql.md)
-* [Symfony](symfony.md)
-* [JavaScript](javascript.md)
-* [CSS](css.md)
