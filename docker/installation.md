@@ -1,7 +1,7 @@
 ---
 description: >-
   Docker nécessite un environnement Linux pour fonctionner. Son installation,
-  quelle soit sous Windows ou OS implique forcément l'installation d'un
+  qu'elle soit sous Windows ou OS implique forcément l'installation d'un
   Sous-système Linux (WSL2, lima-vm ...).
 ---
 
