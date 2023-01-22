@@ -7,7 +7,7 @@ description: >-
 
 # Installation de Docker Desktop
 
-## Installation sous Linux et ses distributions
+## Installation sous Linux, Ubuntu ou Debian
 
 {% embed url="https://docs.docker.com/desktop/install/linux-install/" %}
 
