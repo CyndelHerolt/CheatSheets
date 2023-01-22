@@ -47,7 +47,7 @@ Pour commencer, il ne faut pas oublier qu'<mark style="color:blue;">un Container
 
 Ensuite, <mark style="color:blue;">les données (dossiers, fichiers ...) créées dans un Container sont éphémères</mark>. Lorsqu'on le quitte à l'aide de la commande <mark style="color:yellow;">`exit`</mark>, il est réinitialisé. Il faut donc <mark style="color:blue;">générer un</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**snapshot**</mark> avant de le quitter pour ne pas perdre le travail accompli.
 
-Enfin, il est possible de **créer plusieurs Container à partir d'une même image.** De ce fait, si on ouvre un deuxième terminal dans lequel <mark style="color:blue;">on relance un Container à partir de la même image, ils seront</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**complètement indépendants**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">l'un de l'autre.</mark>&#x20;
+Enfin, il est possible de **créer plusieurs Container à partir d'une même image.** De ce fait, si on ouvre un deuxième terminal dans lequel <mark style="color:blue;">on relance un Container à partir de la même image, ils seront</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**complètement isolés**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">l'un de l'autre.</mark> Mais ils seront tout de même dépendant du même kernel, du même noyau Linux, celui de la machine physique.
 
 ### 1.4&#x20;
 
