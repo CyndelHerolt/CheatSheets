@@ -18,7 +18,7 @@ Cette commande engendre le comportement suivant :&#x20;
 4. **Docker Daemon** <mark style="color:blue;">renvoie des informations à Docker Client</mark> qui peuvent par exemple nous être retournées dans le terminal.
 
 {% hint style="info" %}
-<mark style="color:yellow;">Le Container étant complètement isolé du terminal, l'information qui nous est retournée est en fait  récupérée par Docker Daemon dans le Container et c'est lui qui la rapatrie dans le Terminal.</mark>
+<mark style="color:yellow;">Le Container étant complètement isolé du terminal, l'information qui nous est retournée est en fait récupérée par Docker Daemon dans le Container et qui la communique au Docker Client.</mark>
 {% endhint %}
 
 
