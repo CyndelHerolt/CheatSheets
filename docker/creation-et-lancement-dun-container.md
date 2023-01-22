@@ -47,11 +47,9 @@ Lorsque l'on créé un Container, Docker lui attribue un nom par défaut consult
 Après avoir lancé le Container en mode Interactif en lui spécifiant de lancer son propre shell, on se retrouve dans **son arborescence**. <mark style="color:blue;">On doit normalement y trouver les fichiers nécessaires au fonctionnement de l'Image à partir de laquelle il a été créé</mark>. \
 C'est sensiblement similaire à ce qu'on retrouve dans une VM à quelques exceptions près.&#x20;
 
-Pour commencer, il ne faut pas oublier qu'<mark style="color:blue;">un Container est complètement isolé du système d'exploration de fichiers de la machine hôte</mark>. Il est donc impossible d'accéder à des données présentes localement à partir du Container et inversement de la machine au Container. &#x20;
+Il ne faut pas oublier qu'<mark style="color:blue;">un Container est complètement isolé du système d'exploration de fichiers de la machine hôte</mark>. Il est donc impossible d'accéder à des données présentes localement à partir du Container et inversement de la machine au Container. &#x20;
 
-Ensuite, <mark style="color:blue;">les données (dossiers, fichiers ...) créées dans un Container sont éphémères</mark>. Lorsqu'on le quitte à l'aide de la commande <mark style="color:yellow;">`exit`</mark>, il est réinitialisé. Il faut donc <mark style="color:blue;">générer un</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**snapshot**</mark> avant de le quitter pour ne pas perdre le travail accompli.
-
-Enfin, il est possible de **créer plusieurs Container à partir d'une même image.** De ce fait, si on ouvre un deuxième terminal dans lequel <mark style="color:blue;">on relance un Container à partir de la même image, ils seront</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**complètement isolés**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">l'un de l'autre.</mark> Mais ils seront tout de même dépendant du même kernel, du même noyau Linux, celui de la machine physique.
+Il est possible de **créer plusieurs Container à partir d'une même image.** De ce fait, si on ouvre un deuxième terminal dans lequel <mark style="color:blue;">on relance un Container à partir de la même image, ils seront</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**complètement isolés**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">l'un de l'autre.</mark> Mais ils seront tout de même dépendant du même kernel, du même noyau Linux, celui de la machine physique.
 
 ### 1.4&#x20;
 
