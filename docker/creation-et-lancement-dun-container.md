@@ -38,6 +38,10 @@ docker run -it nomDeLimage
 * L'option <mark style="color:yellow;">`-i`</mark> permet de <mark style="color:blue;">lancer un Container en mode Interactif</mark>. Cela signifie que l'on pourra intéragir avec le Container en question à partir du terminal dans lequel on est.
 * L'option <mark style="color:yellow;">`-t`</mark> permet de <mark style="color:blue;">lancer le shell par défaut de l'image</mark> et donc de proposer l'affichage d'un prompt qui facilite la navigation dans le Container.
 
+{% hint style="info" %}
+Lorsque l'on créé un Container, Docker lui attribue un nom par défaut consultable grace à la commande `docker container ls -a`
+{% endhint %}
+
 ### <mark style="color:yellow;">1.3 Spécificité d'un Docker Container</mark>
 
 Après avoir lancé le Container en mode Interactif en lui spécifiant de lancer son propre shell, on se retrouve dans **son arborescence**. <mark style="color:blue;">On doit normalement y trouver les fichiers nécessaires au fonctionnement de l'Image à partir de laquelle il a été créé</mark>. \
