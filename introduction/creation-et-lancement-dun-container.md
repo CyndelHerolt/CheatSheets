@@ -51,16 +51,3 @@ Il ne faut pas oublier qu'<mark style="color:blue;">un Container est complèteme
 
 Il est possible de **créer plusieurs Container à partir d'une même image.** De ce fait, si on ouvre un deuxième terminal dans lequel <mark style="color:blue;">on relance un Container à partir de la même image, ils seront</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**complètement isolés**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">l'un de l'autre.</mark> Mais ils seront tout de même dépendant du même kernel, du même noyau Linux, celui de la machine physique.
 
-
-
-
-
-## 2. En pratique
-
-#### Créer un Container à partir de l'Image de la distribution Linux ultra-légère : Alpine
-
-Saisir la commande suivante pour un Container à partir de l'Image Alpine :&#x20;
-
-```bash
-docker run alpine
-```
