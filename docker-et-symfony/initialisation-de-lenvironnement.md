@@ -5,13 +5,13 @@
 Si vous souhaitez utiliser Docker avec Symfony de manière simple et rapide, vous pouvez utiliser le projet Symfony Docker officiellement proposé par Symfony. Ce projet fournit une configuration Docker prête à l'emploi pour démarrer rapidement avec Symfony et Docker.
 
 {% hint style="warning" %}
-Cette méthode, telle quelle, ne fonctionne que sur une config en local. Si vous voulez tester ça sur, par exemple une VM Multipass, il faudra suivre adapter votre config [de cette manière.](initialisation-de-lenvironnement.md#depuis-une-vm)
+Cette méthode, telle quelle, ne fonctionne que sur une config en local. Si vous voulez tester ça sur, par exemple une VM Multipass, il faudra adapter votre config [de cette manière.](initialisation-de-lenvironnement.md#depuis-une-vm)
 {% endhint %}
 
 Voici comment vous pouvez obtenir et utiliser le projet Symfony Docker :
 
 1. **Cloner le projet Symfony Docker** :
-   * Vous pouvez cloner le projet Symfony Docker à partir de son dépôt GitHub en utilisant la commande suivante:
+   * Vous pouvez cloner le projet Symfony Docker à partir du dépôt GitHub en utilisant la commande suivante:
 
 ```sh
 git clone https://github.com/dunglas/symfony-docker.git
