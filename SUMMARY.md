@@ -9,4 +9,4 @@
 
 ## Docker et Symfony
 
-* [Création de l'environnement](docker-et-symfony/creation-de-lenvironnement.md)
+* [Initialisation de l'environnement](docker-et-symfony/initialisation-de-lenvironnement.md)
