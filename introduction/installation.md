@@ -21,7 +21,7 @@ Pour pouvoir utiliser Docker dans un environnement Windows, il est nécessaire d
 
 {% embed url="https://docs.docker.com/desktop/install/windows-install/" %}
 
-Il faut utiliser le <mark style="color:yellow;">**shell Bash**</mark> (ce qui interprète l'information saisie dans le terminal) <mark style="color:yellow;">****</mark> afin d'avoir accès à toutes les commandes. Pour y parvenir, on doit installer Git. Une fois l'installation de Git effectuée, il suffit d'ouvrir <mark style="color:yellow;">**Git Bash**</mark> afin d'accéder au command prompt.
+Il faut utiliser le <mark style="color:yellow;">**shell Bash**</mark> (ce qui interprète l'information saisie dans le terminal) afin d'avoir accès à toutes les commandes. Pour y parvenir, on doit installer Git. Une fois l'installation de Git effectuée, il suffit d'ouvrir <mark style="color:yellow;">**Git Bash**</mark> afin d'accéder au command prompt.
 
 {% embed url="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" %}
 
