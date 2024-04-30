@@ -1,10 +1,12 @@
 # Création de l'environnement
 
-Pour faire fonctionner un projet Symfony dans un environnement Docker, il vous faut d'abord initialiser le projet Symfony. (cf. [Symfony](https://app.gitbook.com/s/f7vqQ2Kol4hyX8Z5JDQh/modes-operatoires/creation-dune-application))
-
-
+## Via les outils proposés par Symfony
 
 Si vous souhaitez utiliser Docker avec Symfony de manière simple et rapide, vous pouvez utiliser le projet Symfony Docker officiellement proposé par Symfony. Ce projet fournit une configuration Docker prête à l'emploi pour démarrer rapidement avec Symfony et Docker.
+
+{% hint style="warning" %}
+Cette méthode, telle quelle, ne fonctionne que sur une config en local. Si vous voulez tester ça sur, par exemple une VM Multipass, il faudra suivre adapter votre config de cette manière.
+{% endhint %}
 
 Voici comment vous pouvez obtenir et utiliser le projet Symfony Docker :
 
@@ -38,3 +40,9 @@ Pour arrêter les containers Docker il vous suffit de faire :&#x20;
 ```bash
 docker compose down --remove-orphans
 ```
+
+## Via la méthode manuelle
+
+Pour faire fonctionner un projet Symfony dans un environnement Docker, il vous faut d'abord initialiser le projet Symfony. (cf. [Symfony](https://app.gitbook.com/s/f7vqQ2Kol4hyX8Z5JDQh/modes-operatoires/creation-dune-application))
+
+Dans ce projet Symfony, il faut créer un fichier docker-compose.yml qui contiendra la configuration.
